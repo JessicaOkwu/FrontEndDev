@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <link href="stylesheet.css" rel="stylesheet">
+  
+                                                <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Open+Sans+Condensed:300|Ranga" rel="stylesheet">
+    
+                                        <!-- Social Media Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+                                                <!-- Font Arswome -->
+    <script src="https://use.fontawesome.com/c7d30f7454.js"></script>
+
+    <title>Cheek 2 Cheek!</title> 
+</head>
+    
+  <body>  
+      <a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+      
+      <header>
+          <div class="intro">
+            <img src="images/banner2.jpg">
+            <h1> Cheek2Cheek</h1>
+            <h2> making your university experience a better one</h2>
+                <br>
+            <p> ---------------------------------</p>
+            <p id="demo"> Want to know a secret?!</p>
+            <button type="button" onclick='document.getElementById("demo").innerHTML="You are amazing!"'> Click Here!</button>
+          </div>    
+      </header>
+          
+      <!--Acts as a container for the content being added into the page -->
+      <div class="wrapper"> 
+        <section class="default">
+            <div class="default-content">
+                <h2> cheek 2 cheek!? what is that!?  </h2>
+                <img src="images/IMG_2469.JPG" >
+                <p> Cheek 2 Cheek was established in July 2015 by myself, Jessica Okwuonu. <i class="fa fa-smile-o" aria-hidden="true"></i> <br> At first the aim was to change the world and make everyone smile but it became very clear, very quickly that this was TOO BIG of an idea. So we started doing smaller things, trying to make the students and staff at De Monfort University feel special about themselves and happy to be a part of our amazing university. In the future we hope to do a bit more! ... <br>This page is currently under construction and will be updated soon!<br> For now enjoy what we have so far.<br> Have a good and happy day!<br>
+            Jessica, Cheek 2 Cheek Founder. <br><i class="fa fa-heart-o" aria-hidden="true"></i> 
+                </p>
+            </div> 
+        </section>
+            
+         
+            <h4> Random Inspiration Moment!</h4>
+            <p> Did you know Walt Disney was fired by a newspaper editior because they said <br><strong><underline>"he lacked imagination and had no good ideas?</strong></underline> <br> Well .... I do not need to tell you what happened. But the lesson here is, when you fail .. try, try again. <i class="fa fa-thumbs-o-up" aria-hidden="true"></i></p>
+          
+          
+          <section class="gallery">
+                <h3> What Have We Done?</h3>
+            <div class="w3-content w3-section" style="max-width:800px">
+                <img class="mySlides" src="images/IMG_1295.JPG" style="width:100%">
+                <img class="mySlides" src="images/IMG_1341.JPG" style="width:100%">
+                <img class="mySlides" src="images/IMG_2249.JPG" style="width:100%">
+                <img class="mySlides" src="images/IMG_2350.JPG" style="width:100%">
+            </div>
+              
+             <!-- Java Script to allow slides change automatically --> 
+        <script>
+            var myIndex = 0;
+                carousel();
+                function carousel() 
+                { var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) 
+                { x[i].style.display = "none";}
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}    
+                x[myIndex-1].style.display = "block";  
+                setTimeout(carousel, 2000); // Change image every 2 seconds
+                }
+        </script>
+              
+              
+              <!-- Text under slides -->
+                <p> Above you will find a few images of what we have done so far this year. During Jessica's 3rd year she was a frontrunner at DMU Square Mile and did some additional volunteering for them (you will find these images here). She also built a robot and took it into schools on behalf of DMU Square Mile in order to teach them about robotics.  </p>
+                <a href="Find Out More" target="_blank" class="button">Find Out More!</a>
+              </div>
+              </div>
+          </section>
+          
+    
+                <h4 onclick="this.innerHTML= 'Your Only Limit Is You! Never Give Up On Your Dreams. We Believe In You!'"> Click this sentence for a suprise!</h4>
+    
+    
+          
+            <h3> Our Youtube Channel</h3>
+        <table style="width:100%">
+             <tr>
+                <th> 
+                    <iframe  src="https://www.youtube.com/embed/L49VXZwfup8" frameborder="0" allowfullscreen></iframe>
+                </th>
+                <th> 
+                    <iframe  src="https://www.youtube.com/embed/HXOEDeMPQN4" frameborder="0" allowfullscreen></iframe>
+                 </th>
+             </tr>
+        </table>
+    
+                    <p>  We are looking to start up our own youtube channel where we will talk about what is happening in the world and give people inspiration and hope for the days ahead. For now, please enjoy videos which we find funny.  </p>
+    
+    
+    
+    <section class="contact">
+        <div class="contact-content">
+            <h4>Have a project in mind? Email me: <a class="email" href="mailto:jessicaokwuonu@outlook.com">jessicaokwuonu@outlook.com</a></h4>
+        </div>
+    </section>
+    
+    
+    
+    <div class="image=divider">
+        
+        
+      </div>
+    
+      <footer>
+        <div class="footer-content">
+                <p class="credit">&copy;Copyright 2017 Jessica Okwuonu.<br>Created by Jessica Okwuonu </p>
+            <ul class="social">
+                <a href="twitter" class="fa fa-twitter"></a>
+                <a href="facebook" class="fa fa-facebook"></a>
+                <a href="linkedin" class="fa fa-linkedin"></a>
+                <a href="snaphat" class="fa fa-snapchat-ghost"></a>
+                <a href="youtube" class="fa fa-youtube"></a>
+            </ul>
+          </div>
+      </footer>
+    </body>
+</html>
